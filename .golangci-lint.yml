@@ -1,0 +1,8 @@
+linters:
+  prests:
+    - bugs
+    - complexity
+    - format
+    - performance
+    - style
+    - unused
