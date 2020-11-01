@@ -1,5 +1,5 @@
 linters:
-  prests:
+  presets:
     - bugs
     - complexity
     - format
