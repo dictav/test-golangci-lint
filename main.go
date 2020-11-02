@@ -16,4 +16,8 @@ func main() {
 
 
 	fmt.Fprintln(os.Stdout, "hello, world!", x)
+
+	f, _ := os.Open("file")
+	buf := []byte{}
+	f.Read(buf)
 }
